@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5d9a98cab02103107f44b505ba30ebd0" extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection">
+        <element label="Need By Date" max_length="40" name="need_by_date" type="glide_date"/>
+        <element label="Return Date" max_length="40" name="return_date" type="glide_date"/>
+        <element label="Employee Name" max_length="100" name="employee_name" type="string"/>
+        <element label="Employee ID" max_length="20" name="employee_id" type="string"/>
+        <element choice="1" label="Device Type" max_length="40" name="device_type" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
